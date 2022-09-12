@@ -1,0 +1,23 @@
+docker configuration
+Docker image and run in container step -->dockerFile-->dockerImage-->dockerContainer
+
+docker build -t tweet-app.jar -->to build docker file/docker image
+docker run -p  9000:8080 tweetapp.jar --> to run localy using docker_file/image
+docker login -->to login to docker hub
+docker tag tweetapp.jar kishangupta097/tweet-app:tweetapp.jar-->add tag to docker file
+docker push kishangupta097/tweet-app:tweetapp.jar--> push on docker hub
+docker logout 
+ 
+ Pushing and pulling docker image to Docker Hub
+ 
+ login
+ user name
+ password
+ success login
+ 
+docker login -->to login to docker hub
+docker tag tweetapp.jar kishangupta097/tweet-app:tweetapp.jar-->add tag to docker file
+docker push kishangupta097/tweet-app:tweetapp.jar--> push on docker hub
+ docker pull kishangupta097/tweet-app:tweetapp.jar to pull from dockerhub
+docker run -p 9000:8080 tweet-app:tweetapp.jar/tweetapp.jar -->run from local
+ 
